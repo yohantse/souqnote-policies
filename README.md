@@ -1,2 +1,0 @@
-# souqnote-policies
-Privacy Policy
