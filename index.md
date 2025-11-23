@@ -1,3 +1,7 @@
+---
+title: SouqNote — Policies
+---
+
 # SouqNote — Policies
 
 Welcome — this site publishes SouqNote project policies.
