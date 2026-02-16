@@ -56,26 +56,16 @@
             font-weight: bold;
         }
 
-        /* Play Store Button */
-        .playstore-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            background-color: #1abc9c;
-            color: #fff;
-            padding: 14px 22px;
-            border-radius: 6px;
-            font-size: 16px;
+        .playstore-badge {
             margin-top: 20px;
-            transition: background-color 0.2s ease;
+            display: inline-block;
         }
-        .playstore-btn:hover {
-            background-color: #16a085;
+        .playstore-badge img {
+            height: 60px;
+            transition: transform 0.2s ease;
         }
-        .playstore-btn span {
-            font-weight: normal;
-            font-size: 14px;
-            opacity: 0.9;
+        .playstore-badge img:hover {
+            transform: scale(1.05);
         }
     </style>
 </head>
@@ -86,13 +76,15 @@
     <p>Simple inventory and sales tracking for small businesses</p>
 
     <a
-        class="playstore-btn"
+        class="playstore-badge"
         href="https://play.google.com/store/apps/details?id=com.yohantse.souqnote"
         target="_blank"
         rel="noopener"
     >
-        📱 Get it on Google Play
-        <span>Free download</span>
+        <img
+            src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+            alt="Get it on Google Play"
+        >
     </a>
 </header>
 
@@ -134,16 +126,17 @@
         Additional features may be introduced in the future.
     </p>
 
-    <p>
-        <a
-            class="playstore-btn"
-            href="https://play.google.com/store/apps/details?id=com.yohantse.souqnote"
-            target="_blank"
-            rel="noopener"
+    <a
+        class="playstore-badge"
+        href="https://play.google.com/store/apps/details?id=com.yohantse.souqnote"
+        target="_blank"
+        rel="noopener"
+    >
+        <img
+            src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+            alt="Download on Google Play"
         >
-            📲 Download SouqNote on Google Play
-        </a>
-    </p>
+    </a>
 </section>
 
 <section>
